@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>C6.6. Event Source, WebSocket</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script async src="scripts.js"></script>
+</head>
+
+<body>
+  <header>
+        <h3>C6.6. Chat(frontend) WebSocket based example</h3>
+  </header>
+  <main>
+    <div class = "shadow">
+      <div class = "hdr">
+        <input class = "inpt" type="text" id="name" name="name" required minlength="60" maxlength="60" size="60"
+               placeholder="Здесь находится текст сообщения">
+        <button class="bttn" id = "js_send" type="button">
+          Отправить
+        </button>
+        <button class="bttn" id = "js_geo" type="button">
+          Гео-локация
+        </button>
+      </div>
+      <div class = "bordered_div">
+        <p class = "p_border js_empty_message">Нет сообщений.</p>
+       </div>
+    </div>
