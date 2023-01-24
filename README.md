@@ -3,7 +3,7 @@
 * C6.3. SVG - использование SVG(scalable vector graphics) элементов в теле HTML. 
 * С6.5. Screen size - инструменты запросов размеров экрана или браузера пользователя для построения HTML из JavaScript-кода.
 * C6.6. Event Source, WebSocket - пример chat-приложения на основе интерфейса WebSocket и с использованием Geolocation API. 
-==========================================================================
+=====================================================================
 
 SVG(scalable vector graphics), display/browser window sizes, Geolocation API, WebSocket API.
 
