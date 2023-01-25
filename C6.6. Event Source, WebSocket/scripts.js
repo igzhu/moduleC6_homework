@@ -85,6 +85,8 @@ const success = (position) => {
   const latitude  = position.coords.latitude;
   const longitude = position.coords.longitude;
   txtToSend = `<a target="_blank" href = 'https://www.openstreetmap.org/#map=18/${latitude}/${longitude}'>Ваша локация</a>`;
+  displayMessage("Гео-локация", "end");
+  sendAttempt(txtToSend);
 }
 
 btnGeo.addEventListener('click', () => {
@@ -93,8 +95,6 @@ btnGeo.addEventListener('click', () => {
   } else {
     //console.log("Определение местоположения…");
     navigator.geolocation.getCurrentPosition(success, error);
-    displayMessage("Гео-локация", "end");
-    sendAttempt(txtToSend);
   }
 });
 
